@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.words{
+    display: flex;
+        flex-direction: row;
+        gap: 20px;
+}
+.words  h3{
+    
+    color: #000;
+        font-family: Kodchasan;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        
+
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+margin: 2%;    
+}
+
+.lop{
+    position: relative;
+}
+
+.port img{
+    
+    width: 100%;
+        height: 865px;
+}
+
+
+
+.btn {
+    position: absolute;
+    left: 9%;
+    top: 105%;
+    display: inline-flex;
+    padding: 18px 50px;
+    align-items: flex-start;
+    gap: 20px;
+
+}
+
+.btn button{
+    width: 150px;
+    height: 50px;
+    background: none;
+}
+
+.btn :first-child{
+    background-color: #000000;
+    color: #fff;
+    font-size: 18px;
+}
+
+
+.our h1{
+    color: #000;
+        font-family: Kodchasan;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 160%;
+        
+}
+
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5%;
+}
+
+.kit img{
+    width: 826.816px;
+        height: 784.264px;
+        flex-shrink: 0;
+}
+
+.kit button{
+    width: 120px;
+    height: 40px;
+    border: none;
+    background: #E58311;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.kit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.other{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.other p{
+    color: #000;
+        font-family: Kodchasan;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 160%;
+    
+}
+
+.other h1{
+    color: #000;
+        font-family: Kodchasan;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 145%;
+        
+}
+
+.kitt{
+
+    display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 90px;
+        margin: 2%;
+}
+
+.kitt button {
+    width: 120px;
+    height: 40px;
+    border: none;
+    background: #E58311;
+    color: #fff;
+    border-radius: 3px;
+    transition: all 0.2s ease-in-out;
+}
+
+.kitt img {
+    width: 826.816px;
+    height: 784.264px;
+    flex-shrink: 0;
+}
+
+.kitt button:hover{
+    background-color: black;
+}
+
+.jut{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5%;
+    justify-content: space-between;
+    
+}
+
+.jut a{
+    text-decoration: none;
+    color: #E58311;
+}
+
+.product{
+   
+    width: 500px;
+    height: 300px;
+    align-items: center;
+    gap: 50px;
+        background: #e6c29a;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.ko{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 4%;
+}
+
+.ko h1{
+    color: #000;
+        font-family: Kodchasan;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        
+}
+
+.ko button{
+width: 140px;
+height: 40px;
+background: none;
+    border: 1.5px solid #E58211;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.all{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    margin-left: 10%;
+}
+
+
+.ko button:active{
+    background-color: #cf7206;
+    
+}
+
+.honey{
+    width: 100%;
+    margin-top: 10%;
+    height: 150px;
+    background-color: #E58311;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3%;
+}
